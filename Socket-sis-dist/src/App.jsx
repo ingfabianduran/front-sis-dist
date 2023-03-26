@@ -1,8 +1,7 @@
-import socketIo from "socket.io-client";
-const socket = socketIo.connect("http://localhost:3000");
+import FormularioPersona from "./components/FormularioPersona";
 
 function App() {
-  return <div></div>;
+  return <FormularioPersona></FormularioPersona>;
 }
 
 export default App;
