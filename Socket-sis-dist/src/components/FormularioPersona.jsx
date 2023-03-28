@@ -18,7 +18,7 @@ export default function FormularioPersona() {
   const [telefono, setTelefono] = React.useState("");
   const [ciudad, setCiudad] = React.useState("");
   const [search, setSearch] = React.useState("");
-  const socket = socketIo.connect("http://localhost:3000");
+  const socket = socketIo.connect("http://192.168.0.22:3000");
 
   React.useEffect(() => {
     socket.on("listCities", (res) => {
