@@ -10,7 +10,7 @@ export default function CreateSurvey() {
         <Grid item md={8}>
           <ViewSurvey />
         </Grid>
-        <Grid item md={4} pt={0}>
+        <Grid item md={4}>
           <TypeOfQuestions />
         </Grid>
       </Grid>
