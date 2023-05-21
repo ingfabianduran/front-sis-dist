@@ -1,11 +1,4 @@
-import Paper from "@mui/material/Paper";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
-import ListItemText from "@mui/material/ListItemText";
+import { Paper, Box, Typography, List, ListItem, ListItemButton, ListItemIcon, ListItemText } from "@mui/material";
 import { TYPE_OF_QUESTIONS } from "../constantes/TypeOfQuestions";
 
 export default function TypeOfQuestions() {
